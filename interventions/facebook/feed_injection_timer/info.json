@@ -1,0 +1,14 @@
+{
+  "description": "Injects timer into the Facebook feed",
+  "displayname": "Time Injector",
+  "difficulty": "easy",
+  "matches": [
+    "www.facebook.com"
+  ],
+  "content_scripts": [
+    {
+      "path": "frontend.js",
+      "run_at": "document_start"
+    }
+  ]
+}

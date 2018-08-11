@@ -1,0 +1,14 @@
+{
+  "description": "Remove sidebar links",
+  "displayname": "Sidekicker",
+  "difficulty": "easy",
+  "matches": [
+    "www.youtube.com"
+  ],
+  "content_scripts": [
+    {
+      "path": "frontend.js",
+      "run_at": "document_start"
+    }
+  ]
+}

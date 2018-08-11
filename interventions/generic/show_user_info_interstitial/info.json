@@ -1,0 +1,14 @@
+{
+  "description": "Show time spent and visit count each visit",
+  "displayname": "Stat Whiz",
+  "difficulty": "hard",
+  "content_scripts": [
+    {
+      "path": "frontend.js",
+      "run_at": "document_start"
+    }
+  ],
+  "categories": [
+    "interstitial"
+  ]
+}

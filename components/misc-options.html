@@ -1,0 +1,22 @@
+<link rel="import" href="../bower_components/polymer/polymer.html">
+<link rel="import" href="../bower_components/paper-checkbox/paper-checkbox.html">
+
+<dom-module id="misc-options">
+  <template>
+    <style>
+      .card-content {
+        font-size: 20px;
+      }
+    </style>
+    <div class="card-content">
+      <paper-checkbox checked="{{allow_daily_goal_notifications}}">
+        <span class="checkbox_span">Show me a notification of how many goals I met each day at midnight</span>
+      </paper-checkbox>
+      <br>
+      <paper-checkbox checked="{{allow_nongoal_timer}}">
+        <span class="checkbox_span">Show timer for time spent on sites other than goal sites in the toolbar icon</span>
+      </paper-checkbox>
+    </div>
+  </template>
+  <script src="misc-options.js"></script>
+</dom-module>
